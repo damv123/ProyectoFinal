@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+#drawing{
+ width: 200px;
+ height:200px;
+
+}
+#perfil{
+	width: 200px;
+	height:200px;
+	transform: rotate(90deg);
+
+}
+</style>
+<head>
+	<title></title>
+</head>
+
+<body>
+<image src="images/drawing.svg" id="drawing"></image>
+<h1>Hoja de Vida</h1>
+<h2>Nombres:Dario Alfonso</h2>
+<h2>Apellidos:Mejia Vides</h2>
+<h2>fecha:23/7/1995</h2>
+<h2>Honduras</h2>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="educacion.html">Educacion</a></li>
+<li><a href="experiencia.html">Experiencia</a></li>
+<h2>Informacion Personal</h2>
+<image src="images/perfil.jpg" id="perfil"></image>
+<h1>Educacion</h1>
+ <table border="1">
+    <tr>
+      <td>Year</td>
+      <td>Institucion</td>
+      <td>Lugar</td>
+      <td>Culmino?</td>
+
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>Mesoamericana</td>
+      <td>Honduras</td>
+      <td>2012</td>
+
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>NextUniversity</td>
+      <td>Online</td>
+      <td>2017</td>
+    </tr>
+  
+</table> 
+<h1>Agregar Estudios</h1>
+<form>
+<br>Year:
+<input type="date" name="date" min="1979-12-31" max="2017-01-02">
+<br>
+Institucion:
+<input type="text" name="Institucion" required>
+<br>
+Lugar:
+<input type="text" name="Lugar">
+<br>
+Culmino?
+<br>si
+<input type="radio" name="Culmino" value="si">
+<br>no
+<input type="radio" name="Culmino" value="no">
+<br>Enviar:
+<input type="button" name="Enviar" value="Enviar">
+
+
+
+
+</form>
+<footer>
+	<h3>dariomejiavides2017@gmail.com</h3>
+	<h3>direccion:Honduras,Centroamerica</h3>
+</footer>
+
+</body>
+</html>
